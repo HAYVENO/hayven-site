@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { Heading, Text, Stack, Link, Icon, Box } from '@chakra-ui/react'
+import { Heading, Text, Stack, Link, Box } from '@chakra-ui/react'
 import { motion, Variants } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 // import { RiHeartPulseFill, RiCopyleftLine, RiGithubFill } from 'react-icons/ri'
@@ -61,11 +61,9 @@ const GetInTouch = () => {
         </Text>
       </Heading>
       <Text variant="description">
-        In my spare time, I enjoy experimenting with new JS frameworks, even
-        though I may never use them. So please feel free to send me a message on any of
-        my social media accounts or send me an{' '}
+        In my spare time, I enjoy experimenting with new JS frameworks, even though I may never use them. So please feel free to send me a message on any of my social media accounts or send me an{' '}
         <Link
-          href="mailto:taiwo@gmail.com"
+          href="mailto:taiworoqeeb@gmail.com"
           target="_blank"
           rel="noreferrer"
         >

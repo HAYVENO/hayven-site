@@ -31,8 +31,7 @@ const FeaturedWorksSection = () => {
         Some of my works.
       </Heading>
       <Text variant="description">
-        Take a look at some of the work I`ve done in the areas of corporate projects, 
-        and those still in development.
+        Take a look at some of the work I`ve done in the areas of corporate projects, and those still in development.
       </Text>
 
       <MotionGrid

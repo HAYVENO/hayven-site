@@ -94,7 +94,7 @@ const Sidebar = () => {
             <Text variant="emphasis" as="span">
               <b> Taiwo</b>
             </Text>
-            . That's okay. . . .
+            . That is okay. . . .
           </MotionText>
 
           <MotionHeading

@@ -18,7 +18,7 @@ import {
   useBreakpointValue,
   useColorMode,
 } from '@chakra-ui/react'
-import { BiRightArrow } from 'react-icons/bi';
+import { BiRightArrow } from 'react-icons/bi'
 import styles from './styles.module.css'
 import { ExperiencesList } from 'config/experience'
 import { mobileBreakpointsMap } from 'config/theme'

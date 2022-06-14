@@ -94,7 +94,7 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
           <SkillList title="Frontend-focused" columns={frontendCols} />
           <SkillList title="CICD-focused" columns={cicdCols} />
           <SkillList title="Database and Streams" columns={dataBaseCols} />
-          <SkillList title="Object-relational Mapping (ORM) " columns={ormCols} />
+          <SkillList title="Object-relational Mapping (ORM)" columns={ormCols} />
           <SkillList title="Ui Frameworks" columns={uiFrameWorkCols} />
           <SkillList title="Productivity boosts" columns={productivityCols} />
         </ModalBody>
