@@ -1,0 +1,42 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "next", 
+    "next/core-web-vitals", 
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "prettier"
+   ],
+  "plugins": ["@typescript-eslint", "react", "prettier"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "arrow-body-style": ["warn", "as-needed"],
+    "array-callback-return": "warn",
+    "camelcase": ["warn", { "properties": "never" }],
+    "consistent-return": "warn",
+    "curly": ["warn", "all"],
+    "default-case": "warn",
+    "prefer-template": "warn",
+    "accessor-pairs": "warn",
+    "indent": ["warn", 2, {"SwitchCase": 1}],
+    "no-multi-str": "warn",
+    "no-useless-escape": "warn",
+    "no-trailing-spaces": "warn",
+    "react/no-multi-comp": "warn",
+    "import/first": "warn",
+    "import/order": "warn",
+    "linebreak-style": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "prettier/prettier": [
+      "warn",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "globals": {
+    "React": "writable"
+  }
+}
