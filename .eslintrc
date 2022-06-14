@@ -10,7 +10,7 @@
   "plugins": ["@typescript-eslint", "react", "prettier"],
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "arrow-body-style": ["warning", "as-needed"],
+    "arrow-body-style": ["warn", "as-needed"],
     "array-callback-return": "warning",
     "camelcase": ["warning", { "properties": "never" }],
     "consistent-return": "warning",
