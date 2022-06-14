@@ -18,7 +18,6 @@ import {
   SiReact,
   SiNodedotjs,
   SiExpress,
-  SiAmazonaws,
   SiDocker,
   SiAmazons3,
 } from 'react-icons/si';

@@ -3,8 +3,8 @@ const OpenGraphHead = () => (
   <Head>
     <title>Abdulraqeeb Taiwo | Backend Developer</title>
     <meta name="description" content="My personal solace place on web-earth." />
-    <meta property="og:title" content="KH Yusuf | Frontend Developer" />
-    <meta property="og:site_name" content="Yusuf Kehinde Hussein" />
+    <meta property="og:title" content="Abdulraqeeb Taiwo | Backendend Developer" />
+    <meta property="og:site_name" content="Abdulraqeeb Taiwo" />
     <meta property="og:url" content="https://yusufkehinde.netlify.app" />
     <meta
       property="og:description"

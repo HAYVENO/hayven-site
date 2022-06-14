@@ -3,35 +3,27 @@ import {
   SiJavascript,
   SiTypescript,
   SiNodedotjs,
-  SiGraphql,
-  SiApollographql,
   SiReact,
-  SiNextdotjs,
-  SiRedux,
   SiStyledcomponents,
   SiCpanel,
   SiMongodb,
   SiMaterialdesign,
-  SiFramer,
   SiGit,
   SiGnubash,
   SiVisualstudiocode,
   SiTailwindcss,
   SiGithub,
-  SiArchlinux,
   SiExpress,
   SiNetlify,
-  SiVercel,
   SiMysql,
   SiPostgresql,
   SiHeroku,
   SiDocker,
-  SiAmazonaws,
   SiAmazons3,
   SiSequelize,
 } from 'react-icons/si'
-import { AiOutlineAntDesign } from 'react-icons/ai'
-import { IoLogoPwa } from 'react-icons/io5'
+// import { AiOutlineAntDesign } from 'react-icons/ai'
+// import { IoLogoPwa } from 'react-icons/io5'
 import { BiCodeCurly } from 'react-icons/bi'
 import { GiShipWheel} from 'react-icons/gi'
 
