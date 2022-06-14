@@ -26,6 +26,7 @@ import {
 // import { IoLogoPwa } from 'react-icons/io5'
 import { BiCodeCurly } from 'react-icons/bi'
 import { GiShipWheel} from 'react-icons/gi'
+import {BsFillCloudFog2Fill} from 'react-icons/bs'
 
 export type SkillCategory =
   | 'backend'
@@ -33,6 +34,7 @@ export type SkillCategory =
   | 'cicd'
   | 'database'
   | 'orm'
+  | "cloud"
   | 'ui frameworks'
   | 'productivity boost'
  
@@ -65,11 +67,7 @@ export const Skills: {
     {
       name: 'Docker',
       icon: SiDocker,
-    },
-    {
-      name: 'AWS S3',
-      icon: SiAmazons3,
-    },
+    }
   ],
   frontend: [
     {
@@ -115,6 +113,16 @@ export const Skills: {
     {
       name: "KnexJs",
       icon: GiShipWheel
+    }
+  ],
+  cloud:[
+    {
+      name: 'AWS S3',
+      icon: SiAmazons3,
+    },
+    {
+      name: 'Cloudinary',
+      icon: BsFillCloudFog2Fill
     }
   ],
   cicd: [

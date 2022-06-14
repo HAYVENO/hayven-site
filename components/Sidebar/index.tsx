@@ -145,6 +145,24 @@ const Sidebar = () => {
             Get in touch!
           </MotionButton>
 
+          <MotionButton
+            size="lg"
+            variant="outline"
+            borderWidth="1px"
+            borderRadius="0"
+            fontWeight="normal"
+            fontSize="sm"
+            width="120px"
+            variants={simpleOpacity}
+            as={'a'}
+            href="https://drive.google.com/file/d/1IoldSGR4PP-8hBlk0RQVAFLZvgvBMMOJ/view?usp=sharing"
+            target="_blank"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            Resume
+          </MotionButton>
+
           <MotionBox d="flex" variants={simpleOpacity}>
             {SocialMedias.map((socMedia) => (
               <Link
