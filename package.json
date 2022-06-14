@@ -14,7 +14,7 @@
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
     "framer-motion": "^4",
-    "next": "12",
+    "next": "^12.1.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
@@ -33,5 +33,17 @@
     "eslint-plugin-react": "^7.24.0",
     "prettier": "^2.3.2",
     "typescript": "4.3.5"
-  }
+  },
+  "description": "## Local Development",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taiworoqeeb/MyPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taiworoqeeb/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/taiworoqeeb/MyPortfolio#readme"
 }
