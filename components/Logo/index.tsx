@@ -20,7 +20,7 @@ const Logo = () => {
             boxSize={isMobile ? '30px' : '50px'}
             objectFit="cover"
             src="./logo.png"
-            alt="Kehinde Logo"
+            alt="Abdulraqeeb Logo"
             fallbackSrc="./logo.png"
             variants={simpleOpacity}
             initial="initial"
