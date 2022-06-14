@@ -127,11 +127,13 @@ const Sidebar = () => {
               Frontend development technologies (🧱, 🚀).
             </Text>
           </MotionText>
-          <MotionButton
+          <MotionBox d="flex" variants={simpleOpacity}>
+            <MotionButton
             size="lg"
             variant="outline"
             borderWidth="1px"
             borderRadius="0"
+            marginRight="1.5"
             fontWeight="normal"
             fontSize="sm"
             width="120px"
@@ -150,6 +152,7 @@ const Sidebar = () => {
             variant="outline"
             borderWidth="1px"
             borderRadius="0"
+            marginLeft="1.5"
             fontWeight="normal"
             fontSize="sm"
             width="120px"
@@ -162,6 +165,8 @@ const Sidebar = () => {
           >
             Resume
           </MotionButton>
+          </MotionBox>
+          
 
           <MotionBox d="flex" variants={simpleOpacity}>
             {SocialMedias.map((socMedia) => (
