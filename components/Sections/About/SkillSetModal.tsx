@@ -77,6 +77,7 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
   const dataBaseCols = splitSkills(Skills.database)
   const ormCols= splitSkills(Skills.orm)
   const cloudCols = splitSkills(Skills.cloud)
+  const testCols = splitSkills(Skills['unit testing'])
   const uiFrameWorkCols = splitSkills(Skills['ui frameworks'])
   const productivityCols = splitSkills(Skills['productivity boost'])
   return (
@@ -92,12 +93,13 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
         <ModalCloseButton />
         <ModalBody className={styles.skillModal}>
           <SkillList title="Backend-focused" columns={backendCols} />
-          <SkillList title="Frontend-focused" columns={frontendCols} />
+          {/* <SkillList title="Frontend-focused" columns={frontendCols} /> */}
           <SkillList title="CICD-focused" columns={cicdCols} />
           <SkillList title="Database and Streams" columns={dataBaseCols} />
           <SkillList title="Object-relational Mapping (ORM)" columns={ormCols} />
+          <SkillList title="Unit Testing" columns={testCols} />
           <SkillList title="Cloud Services" columns={cloudCols} />
-          <SkillList title="Ui Frameworks" columns={uiFrameWorkCols} />
+          {/* <SkillList title="Ui Frameworks" columns={uiFrameWorkCols} /> */}
           <SkillList title="Productivity boosts" columns={productivityCols} />
         </ModalBody>
         <ModalFooter>

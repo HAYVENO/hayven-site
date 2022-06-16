@@ -21,6 +21,7 @@ import {
   SiDocker,
   SiAmazons3,
   SiSequelize,
+  SiJest,
 } from 'react-icons/si'
 // import { AiOutlineAntDesign } from 'react-icons/ai'
 // import { IoLogoPwa } from 'react-icons/io5'
@@ -37,6 +38,7 @@ export type SkillCategory =
   | "cloud"
   | 'ui frameworks'
   | 'productivity boost'
+  | 'unit testing'
  
 
 export type Skill = {
@@ -57,7 +59,7 @@ export const Skills: {
       icon: SiExpress,
     },
     {
-      name: 'Javascript (ES6+)',
+      name: 'Javascript (ES5+)',
       icon: SiJavascript,
     },
     {
@@ -123,6 +125,12 @@ export const Skills: {
     {
       name: 'Cloudinary',
       icon: BsFillCloudFog2Fill
+    }
+  ],
+  'unit testing':[
+    {
+      name: 'JestJs',
+      icon: SiJest
     }
   ],
   cicd: [
