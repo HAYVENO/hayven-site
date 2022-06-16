@@ -93,10 +93,10 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
             NodeJS
           </ListItem>
-          <ListItem fontSize="small" display="flex" alignItems="center">
+          {/* <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
             ReactJS
-          </ListItem>
+          </ListItem> */}
         </List>
         <List spacing={3}>
           <ListItem fontSize="small" display="flex" alignItems="center">
