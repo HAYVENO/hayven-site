@@ -97,12 +97,13 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
             ReactJS
           </ListItem> */}
-        </List>
-        <List spacing={3}>
+
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={TbApi} color={emphasis} fontSize="2em" />
             Restful API
           </ListItem>
+        </List>
+        <List spacing={3}>
 
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiExpress} color={emphasis} fontSize="2em" />
