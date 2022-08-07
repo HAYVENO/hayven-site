@@ -78,18 +78,28 @@ const FeaturedWorksSection = () => {
             isMobile={isMobile}
           />
         </MotionGridItem>
-
-        {/* <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={4}
-            title="Angry Arabs NFT"
-            description="As a freelancer, I created an NFT minting website. Next JS is used to create the frontend, which interacts with an ERC721 smart contract."
-            src="/works/angryarabs.jpeg"
+            title="Producemart"
+            description="As backend developer, I created an API while working with Greenmouse for an agricultural e-commerce platform, where buyers and suppliers trades farm product."
+            src="/works/producemart-logo.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="http://angry-arab.vercel.app/"
+            ctaUrl="https://producemart.com/"
             isMobile={isMobile}
           />
-        </MotionGridItem> */}
+        </MotionGridItem>
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={5}
+            title="Deepend"
+            description="As backend developer, I created an API while working with Greenmouse for an Entertainment and services platform, here you can get cinema tickets, rent equipments, rent a studio, buy Vr-Game's ticket and order any food of your choice."
+            src="/works/deep.png"
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            ctaUrl="https://deependapp.com.ng/"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
       </MotionGrid>
     </Stack>
   )

@@ -83,7 +83,7 @@ export const Experiences: {
     subDetail: 'Digital Agency',
     url: 'https://greenmousetech.com/',
     position: 'Backend Developer',
-    duration: 'March 2022 - Till Date',
+    duration: 'March 2022 -August 2022',
     logo: {
       light: '/worked_at_logos/bptech/4.svg',
       dark: '/worked_at_logos/bptech/3.svg',
