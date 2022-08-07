@@ -86,6 +86,7 @@ const FeaturedWorksSection = () => {
             src="/works/producemart-logo.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://producemart.com/"
+            objectPosition="center"
             isMobile={isMobile}
           />
         </MotionGridItem>
@@ -97,6 +98,7 @@ const FeaturedWorksSection = () => {
             src="/works/deep.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://deependapp.com.ng/"
+            objectPosition="center"
             isMobile={isMobile}
           />
         </MotionGridItem>
