@@ -35,6 +35,7 @@ const DevToArticles = ({ articles }: { articles: Article[] }) => {
         I write dev related things from time to time!
       </Text>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={{ base: 5, md: 10 }}>
+        
         {articles?.map((item) => (
           <Link
             aria-label={item.title}
