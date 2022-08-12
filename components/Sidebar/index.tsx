@@ -158,12 +158,12 @@ const Sidebar = () => {
             width="120px"
             variants={simpleOpacity}
             as={'a'}
-            href="https://drive.google.com/file/d/1I582ZKy3cFngCBoeG-EA-X8TpIuJg5sl/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IoldSGR4PP-8hBlk0RQVAFLZvgvBMMOJ/view?usp=sharing"
             target="_blank"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Resume
+            Download CV
           </MotionButton>
           </MotionBox>
           
