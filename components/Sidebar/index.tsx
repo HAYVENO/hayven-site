@@ -119,9 +119,7 @@ const Sidebar = () => {
               {' '}
               Thank you!
             </Text>{' '}
-            for taking the time to visit my personal website. I`m a backend-end
-            developer that creates APIs for web and mobile applications, and
-            I`ve lately been interested in
+            for taking the time to visit my website. I`m a backend-end developer that creates APIs for web and mobile applications, and I`ve lately been interested in
             <Text variant="emphasis" as="span">
               {' '}
               Frontend development technologies (🧱, 🚀).

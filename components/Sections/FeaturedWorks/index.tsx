@@ -45,7 +45,7 @@ const FeaturedWorksSection = () => {
             idx={1}
             title="Talctech Rentals"
             src="/works/talctech-logo.jpg"
-            description="Talctech Rentals is website built for landlords, or property owners to put their properties out there for rent. This way individuals looking for homes to rent can easily go to website and converse with the landlord to rent an apartment."
+            description="Talctech Rentals is a website built for landlords, or property owners to put their properties out there for rent. This way individuals looking for homes to rent can easily go to the website and converse with the landlord to rent an apartment."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://talctechrentals.com/"
             objectPosition="center"
@@ -57,7 +57,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={2}
             title="EventHype Social"
-            description="This is an android app, that allows user to post and organise any event over internet without the help any company, this app also promote brands, ceremony via the app dashboard to all user using the app."
+            description="This is an android app, that allows users to post and organise any event over the internet without the help of any company, this app also promotes brands, and ceremonies via the app dashboard to all users using the app."
             src="/works/eventhype-logo.jpg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="#"
@@ -70,7 +70,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={3}
             title="Moon App"
-            description="This app was create for Moon Innovation product, to allow user have access to the products information and control the product via the internet. Note: This App is still in the development stage."
+            description="This app was created for the Moon Innovation product, to allow users to have access to the product's information and control the product via the internet. Note: This App is still in the development stage."
             src="/works/moon-logo.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.mooninnovations.io/"
@@ -82,7 +82,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={4}
             title="Producemart"
-            description="As backend developer, I created an API while working with Greenmouse for an agricultural e-commerce platform, where buyers and suppliers trades farm product."
+            description="As a backend developer, I created an API while working with Greenmouse for an agricultural e-commerce platform where buyers and suppliers trade farm products."
             src="/works/producemart-logo.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://producemart.com/"
@@ -94,7 +94,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={5}
             title="Deepend"
-            description="As backend developer, I created an API while working with Greenmouse for an Entertainment and services platform, here you can get cinema tickets, rent equipments, rent a studio, buy Vr-Game's ticket and order any food of your choice."
+            description="As a backend developer, I created an API while working with Greenmouse for an Entertainment and services platform where you can get cinema tickets, rent equipment, rent a studio, buy VR-Game's ticket and order any food of your choice."
             src="/works/deep.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://deependapp.com.ng/"
