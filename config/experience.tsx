@@ -80,7 +80,7 @@ export const Experiences: {
     longName: 'Green Mouse Technologies',
     subDetail: 'Digital Agency',
     url: 'https://greenmousetech.com/',
-    position: 'Backend Developer',
+    position: 'Software Developer (Backend)',
     duration: 'March 2022 -August 2022',
     logo: {
       light: '/worked_at_logos/bptech/4.svg',

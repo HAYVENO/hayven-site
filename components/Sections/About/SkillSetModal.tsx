@@ -93,7 +93,7 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
         <ModalCloseButton />
         <ModalBody className={styles.skillModal}>
           <SkillList title="Backend-focused" columns={backendCols} />
-          {/* <SkillList title="Frontend-focused" columns={frontendCols} /> */}
+          <SkillList title="Frontend-focused" columns={frontendCols} />
           <SkillList title="CICD-focused" columns={cicdCols} />
           <SkillList title="Database and Streams" columns={dataBaseCols} />
           <SkillList title="Object-relational Mapping (ORM)" columns={ormCols} />

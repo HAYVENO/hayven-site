@@ -104,7 +104,7 @@ const Sidebar = () => {
             className={styles.marginTopSmall}
             variants={fadeInUp}
           >
-            Backend Developer
+            FullStack Developer (Backend Preferred)
           </MotionHeading>
 
           <MotionText
@@ -119,10 +119,10 @@ const Sidebar = () => {
               {' '}
               Thank you!
             </Text>{' '}
-            for taking the time to visit my website. I`m a backend-end developer that creates APIs for web and mobile applications, and I`ve lately been interested in
+            for taking the time to visit my website. I`m a full-stack developer that creates APIs for web and mobile applications, Website design using Vuejs, and I`ve lately been interested in
             <Text variant="emphasis" as="span">
               {' '}
-              Frontend development technologies (🧱, 🚀).
+              Cloud development technologies (🧱, 🚀).
             </Text>
           </MotionText>
           <MotionBox d="flex" variants={simpleOpacity}>

@@ -20,6 +20,7 @@ import {
   SiExpress,
   SiDocker,
   SiAmazons3,
+  SiVuedotjs,
 } from 'react-icons/si';
 import{TbApi} from 'react-icons/tb'
 // import { GiCoffeePot } from 'react-icons/gi'
@@ -47,7 +48,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         What i do.
       </Heading>
       <Text variant="description">
-        I`ve been working as a professional developer for less than a year. I
+        I`ve been working as a professional software developer for less than a year. I
         specialize in creating
         <Tooltip
           label="Ha!. border: 1px solid red "
@@ -58,14 +59,14 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <b> responsive, bug free </b>
           </Text>
         </Tooltip>
-        Restful API for websites and mobile applications. Along the process, I`m also
+        Restful API for websites and mobile applications. Along the process, I also
         <Tooltip
           label="probably nothing special D_D (🧱, 🚀)"
           aria-label="WAGMI"
           hasArrow
         >
           <Text as="span" variant="emphasis">
-            <b> learning to develop frontend design using Reactjs.</b>
+            <b> develop frontend designs using Vuejs (Vue 3).</b>
           </Text>
         </Tooltip>{' '}
         <br /> <br />
@@ -93,10 +94,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
             NodeJS
           </ListItem>
-          {/* <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
-            ReactJS
-          </ListItem> */}
+         
 
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={TbApi} color={emphasis} fontSize="2em" />
@@ -116,6 +114,10 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiDocker} color={emphasis} fontSize="2em" />
             Docker
+          </ListItem>
+          <ListItem fontSize="small" display="flex" alignItems="center">
+            <ListIcon as={SiVuedotjs} color={emphasis} fontSize="2em" />
+            VueJS
           </ListItem>
         </List>
         <Box>

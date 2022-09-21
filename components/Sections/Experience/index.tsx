@@ -19,7 +19,7 @@ const DetailSection = () => (
     Since 2021, I`ve had the opportunity to work with some firms, allowing me to polish my abilities and talents. These businesses/companies will forever hold a special place in my heart. I`m currently on the lookout for my next{' '}
       <Tooltip label="Hit me up" aria-label="hit me up" hasArrow>
         <Text as="span" variant="emphasis">
-          <b>backend development</b>
+          <b>software development</b>
         </Text>
       </Tooltip>{' '}
       position.

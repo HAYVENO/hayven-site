@@ -96,8 +96,20 @@ const FeaturedWorksSection = () => {
             title="Deepend"
             description="As a backend developer, I created an API while working with Greenmouse for an Entertainment and services platform where you can get cinema tickets, rent equipment, rent a studio, buy VR-Game's ticket and order any food of your choice."
             src="/works/deep.png"
-            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            height={{ base: '130px', md: '225px', '2xl': '280px' }}
             ctaUrl="https://deependapp.com.ng/"
+            objectPosition="center"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={6}
+            title="Abdulraqeeb's Blog"
+            description="This is my blog that I built from scratch using Vuejs (Vue 3), It is a blog for technical and non-technical write-ups, I use markdown for writing the articles, which provides me with many features that make article writing easier, attractive and better. "
+            src="/works/Blog.png"
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            ctaUrl="https://abdulraqeeb-blog.vercel.app"
             objectPosition="center"
             isMobile={isMobile}
           />

@@ -22,6 +22,7 @@ import {
   SiAmazons3,
   SiSequelize,
   SiJest,
+  SiVuedotjs,
 } from 'react-icons/si'
 // import { AiOutlineAntDesign } from 'react-icons/ai'
 // import { IoLogoPwa } from 'react-icons/io5'
@@ -73,17 +74,17 @@ export const Skills: {
   ],
   frontend: [
     {
-      name: 'ReactJs',
-      icon: SiReact,
+      name: 'VueJs',
+      icon: SiVuedotjs,
     },
     {
       name: 'Javascript (ES5+)',
       icon: SiJavascript,
     },
-    {
-      name: 'Typescript',
-      icon: SiTypescript,
-    },
+    // {
+    //   name: 'Typescript',
+    //   icon: SiTypescript,
+    // },
   ],
   database: [
     {
