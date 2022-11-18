@@ -215,6 +215,7 @@ const Navigation = () => {
               as="a"
               href="https://blog.taiworoqeeb.tech"
               rel="noreferrer"
+              target="_blank"
               onClick={onMenuItemClick}
             >
               Blog
