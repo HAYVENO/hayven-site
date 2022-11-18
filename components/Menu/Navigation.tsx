@@ -213,7 +213,7 @@ const Navigation = () => {
               padding={2}
               marginX={2}
               as="a"
-              href="https://abdulraqeeb-blog.vercel.app"
+              href="https://blog.taiworoqeeb.tech"
               rel="noreferrer"
               onClick={onMenuItemClick}
             >
