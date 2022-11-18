@@ -109,7 +109,7 @@ const FeaturedWorksSection = () => {
             description="This is my blog that I built from scratch using Vuejs (Vue 3), It is a blog for technical and non-technical write-ups, I use markdown for writing the articles, which provides me with many features that make article writing easier, attractive and better. "
             src="/works/Blog.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://abdulraqeeb-blog.vercel.app"
+            ctaUrl="https://blog.taiworoqeeb.tech"
             objectPosition="center"
             isMobile={isMobile}
           />
