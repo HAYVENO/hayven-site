@@ -23,6 +23,9 @@ import {
   SiSequelize,
   SiJest,
   SiVuedotjs,
+  SiNestjs,
+  SiNuxtdotjs,
+  SiVercel,
 } from 'react-icons/si'
 // import { AiOutlineAntDesign } from 'react-icons/ai'
 // import { IoLogoPwa } from 'react-icons/io5'
@@ -70,6 +73,10 @@ export const Skills: {
     {
       name: 'Docker',
       icon: SiDocker,
+    },
+    {
+      name: 'NestJs',
+      icon: SiNestjs
     }
   ],
   frontend: [
@@ -78,13 +85,17 @@ export const Skills: {
       icon: SiVuedotjs,
     },
     {
+      name: 'NuxtJs',
+      icon: SiNuxtdotjs
+    },
+    {
       name: 'Javascript (ES5+)',
       icon: SiJavascript,
     },
-    // {
-    //   name: 'Typescript',
-    //   icon: SiTypescript,
-    // },
+    {
+      name: 'Typescript',
+      icon: SiTypescript,
+    }
   ],
   database: [
     {
@@ -151,6 +162,10 @@ export const Skills: {
       name: 'Netlify',
       icon: SiNetlify,
     },
+    {
+      name: "Vercel",
+      icon: SiVercel
+    }
   ],
   'ui frameworks': [
     {
@@ -158,11 +173,7 @@ export const Skills: {
       icon: SiStyledcomponents,
     },
     {
-      name: 'MaterialUI',
-      icon: SiMaterialdesign,
-    },
-    {
-      name: 'Tailwind css',
+      name: 'Tailwind Css',
       icon: SiTailwindcss,
     },
   ],

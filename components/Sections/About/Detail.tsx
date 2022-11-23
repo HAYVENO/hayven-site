@@ -21,6 +21,8 @@ import {
   SiDocker,
   SiAmazons3,
   SiVuedotjs,
+  SiNuxtdotjs,
+  SiNestjs,
 } from 'react-icons/si';
 import{TbApi} from 'react-icons/tb'
 // import { GiCoffeePot } from 'react-icons/gi'
@@ -95,7 +97,10 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             NodeJS
           </ListItem>
          
-
+          <ListItem fontSize="small" display="flex" alignItems="center">
+            <ListIcon as={SiNestjs} color={emphasis} fontSize="2em" />
+            NestJs
+          </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={TbApi} color={emphasis} fontSize="2em" />
             Restful API
@@ -118,6 +123,10 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiVuedotjs} color={emphasis} fontSize="2em" />
             VueJS
+          </ListItem>
+          <ListItem fontSize="small" display="flex" alignItems="center">
+            <ListIcon as={SiNuxtdotjs} color={emphasis} fontSize="2em" />
+            NuxtJS
           </ListItem>
         </List>
         <Box>

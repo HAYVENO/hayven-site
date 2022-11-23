@@ -99,7 +99,7 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
           <SkillList title="Object-relational Mapping (ORM)" columns={ormCols} />
           <SkillList title="Unit Testing" columns={testCols} />
           <SkillList title="Cloud Services" columns={cloudCols} />
-          {/* <SkillList title="Ui Frameworks" columns={uiFrameWorkCols} /> */}
+          <SkillList title="Ui Frameworks" columns={uiFrameWorkCols} />
           <SkillList title="Productivity boosts" columns={productivityCols} />
         </ModalBody>
         <ModalFooter>
