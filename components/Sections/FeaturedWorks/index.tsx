@@ -114,6 +114,18 @@ const FeaturedWorksSection = () => {
             isMobile={isMobile}
           />
         </MotionGridItem>
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={7}
+            title="Foodelo"
+            description="This a food solution created for food vendors and customer to easily order food from restaurant near them."
+            src="/works/foodelo.png"
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            ctaUrl="https://www.foodelo.africa/"
+            objectPosition="center"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
       </MotionGrid>
     </Stack>
   )

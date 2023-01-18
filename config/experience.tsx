@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'Nativebrands' | 'BPTech'
+export type Company = 'MoonInnovations' | 'GreenMouse' | 'Foodelo'
 
 export type CompanyDetail = {
   name: string
@@ -19,7 +19,7 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
-  Nativebrands: {
+  MoonInnovations: {
     name: 'Moon Innovations',
     longName: 'Moon Innovations LLC',
     subDetail: 'Computers and Electronics Manufacturing Company',
@@ -32,50 +32,21 @@ export const Experiences: {
     },
     roles: [
       <>
-        I created the Restful API used for the company's customer service web portal for managing 
+        I created the Restful API used for the company's customer service web portal for managing
         customers technical problems
-        {/* {' '}
-        <Link
-          variant="primaryLink"
-          href="https://xchange-ng.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {' '}
-          xchange website
-        </Link>{' '} */}
+
         .
       </>,
       <>
-        I also created the Restful API the users use in controlling the company's product via mobile device, I used TypeScript as the programming language
-        {/* {' '}
-        <Link
-          variant="primaryLink"
-          href="https://xchange-ng.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {' '}
-          xchange
-        </Link>{' '} */}
-        .
+        I also created the Restful API the users use in controlling the company's product via mobile device, I used TypeScript as the programming language.
       </>,
       <>
-        My first major endeavour, which started in late December, was to create a working Restful API with JavaScript coming from a no nodejs experience 
-        {/* <Link
-          variant="primaryLink"
-          href="https://xchange-ng.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {' '}
-          xchnage
-        </Link>{' '} */}
+        My first major endeavour, which started in late December, was to create a working Restful API with JavaScript coming from a no nodejs experience
         .
       </>,
     ],
   },
-  BPTech: {
+  GreenMouse: {
     name: 'GreenMouse',
     longName: 'Green Mouse Technologies',
     subDetail: 'Digital Agency',
@@ -103,7 +74,7 @@ export const Experiences: {
         using NodeJS.
       </>,
       <>
-        Also built a Restful API for 
+        Also built a Restful API for
         {" "}
         <Link
           aria-label="Braze"
@@ -118,18 +89,64 @@ export const Experiences: {
       </>,
       <>
          I am also working on numerous websites and apps backend in development
-        {/* <Link
+      </>,
+    ],
+  },
+  Foodelo: {
+    name: 'Foodelo (Blunic)',
+    longName: 'Foodelo (Blunic)',
+    subDetail: 'Food Solutions',
+    url: 'https://www.foodelo.africa/',
+    position: 'Software Developer (Backend)',
+    duration: 'November 2022 - Present',
+    logo: {
+      light: 'https://www.foodelo.africa/images/logo.svg',
+      dark: 'https://www.foodelo.africa/images/logo.svg',
+    },
+    roles: [
+      <>
+         Foodelo is a food solution app owned by {" "}
+        <Link
           aria-label="Braze"
-          href="https://www.jufopay.com/"
+          href="https://www.blunic.io/"
           target="_blank"
           rel="noreferrer"
         >
           {' '}
-          Jufopay website.
-        </Link>{' '} */}
+         Blunic
+        </Link>.
       </>,
+      <>
+        I am working as a backend developer in a team of six.
+      </>,
+      <>
+        I worked on series of features on the app.
+      </>,
+      <>
+        Also there is the
+        {" "}
+        <Link
+          aria-label="Braze"
+          href="https://play.google.com/store/apps/details?id=ng.com.riders.foodelo"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
+          Rider's App
+        </Link>{' '}
+        and the {" "}
+        <Link
+          aria-label="Braze"
+          href="https://play.google.com/store/apps/details?id=africa.foodelo.hybrid"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
+         Hybrid App (For Customers and Vendors)
+        </Link>.
+      </>
     ],
   },
 }
 
-export const ExperiencesList = [Experiences.Nativebrands, Experiences.BPTech]
+export const ExperiencesList = [Experiences.MoonInnovations, Experiences.GreenMouse, Experiences.Foodelo]
