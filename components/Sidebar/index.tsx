@@ -104,10 +104,11 @@ const Sidebar = () => {
             className={styles.marginTopSmall}
             variants={fadeInUp}
           >
-            FullStack Developer (Backend Preferred)
+            Full-stack Developer (Backend Preferred)
           </MotionHeading>
 
           <MotionText
+            textAlign="justify"
             variant="description"
             fontSize="small"
             paddingRight={{ lg: '12' }}
@@ -119,7 +120,7 @@ const Sidebar = () => {
               {' '}
               Thank you!
             </Text>{' '}
-            for taking the time to visit my website. I`m a full-stack developer that creates APIs for web and mobile applications, Website design using Vuejs, and I`ve lately been interested in
+            for taking the time to visit my website. I`m a full-stack developer that creates websites and mobile applications using Flutter, and I`ve lately been interested in
             <Text variant="emphasis" as="span">
               {' '}
               Cloud development technologies (🧱, 🚀).
@@ -156,7 +157,7 @@ const Sidebar = () => {
             width="120px"
             variants={simpleOpacity}
             as={'a'}
-            href="https://drive.google.com/file/d/1IoldSGR4PP-8hBlk0RQVAFLZvgvBMMOJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IoldSGR4PP-8hBlk0RQVAFLZvgvBMMOJ/view?usp=drive_link"
             target="_blank"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
@@ -164,7 +165,7 @@ const Sidebar = () => {
             Download CV
           </MotionButton>
           </MotionBox>
-          
+
 
           <MotionBox d="flex" variants={simpleOpacity}>
             {SocialMedias.map((socMedia) => (

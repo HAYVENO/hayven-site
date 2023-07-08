@@ -73,6 +73,7 @@ const SkillList = ({
 const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
   const backendCols = splitSkills(Skills.backend)
   const frontendCols = splitSkills(Skills.frontend)
+  const appCols = splitSkills(Skills.app)
   const cicdCols = splitSkills(Skills.cicd)
   const dataBaseCols = splitSkills(Skills.database)
   const ormCols= splitSkills(Skills.orm)
@@ -94,6 +95,7 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
         <ModalBody className={styles.skillModal}>
           <SkillList title="Backend-focused" columns={backendCols} />
           <SkillList title="Frontend-focused" columns={frontendCols} />
+          <SkillList title="Application (Mobile)-focused" columns={appCols} />
           <SkillList title="CICD-focused" columns={cicdCols} />
           <SkillList title="Database and Streams" columns={dataBaseCols} />
           <SkillList title="Object-relational Mapping (ORM)" columns={ormCols} />

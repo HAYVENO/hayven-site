@@ -26,6 +26,8 @@ import {
   SiNestjs,
   SiNuxtdotjs,
   SiVercel,
+  SiFlutter,
+  SiDart,
 } from 'react-icons/si'
 // import { AiOutlineAntDesign } from 'react-icons/ai'
 // import { IoLogoPwa } from 'react-icons/io5'
@@ -36,6 +38,7 @@ import {BsFillCloudFog2Fill} from 'react-icons/bs'
 export type SkillCategory =
   | 'backend'
   | 'frontend'
+  | 'app'
   | 'cicd'
   | 'database'
   | 'orm'
@@ -43,7 +46,7 @@ export type SkillCategory =
   | 'ui frameworks'
   | 'productivity boost'
   | 'unit testing'
- 
+
 
 export type Skill = {
   name: string
@@ -85,6 +88,10 @@ export const Skills: {
       icon: SiVuedotjs,
     },
     {
+      name: 'ReactJs',
+      icon: SiReact,
+    },
+    {
       name: 'NuxtJs',
       icon: SiNuxtdotjs
     },
@@ -96,6 +103,17 @@ export const Skills: {
       name: 'Typescript',
       icon: SiTypescript,
     }
+  ],
+  app: [
+    {
+      name: 'Flutter',
+      icon: SiFlutter,
+    },
+    {
+      name: 'Dart',
+      icon: SiDart,
+    },
+
   ],
   database: [
     {

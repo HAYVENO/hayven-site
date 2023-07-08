@@ -126,6 +126,18 @@ const FeaturedWorksSection = () => {
             isMobile={isMobile}
           />
         </MotionGridItem>
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={8}
+            title="MageHUB"
+            description="MageHUB is a versatile platform that allows users to connect and communicate with friends and a wide network of individuals globally. Additionally, MageHUB offers the convenience of interacting with various AI tools, including ChatGPT, OpenAI, and many others, providing users with a diverse range of conversational capabilities and resources."
+            src="/works/mageHUB.png"
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            ctaUrl="#"
+            objectPosition="center"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
       </MotionGrid>
     </Stack>
   )

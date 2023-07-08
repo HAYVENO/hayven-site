@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'MoonInnovations' | 'GreenMouse' | 'Foodelo'
+export type Company = 'MoonInnovations' | 'GreenMouse' | 'Foodelo' | 'CodinMage'
 
 export type CompanyDetail = {
   name: string
@@ -63,14 +63,20 @@ export const Experiences: {
       </>,
       <>
         I worked on Restful API design for{' '}
+
         <Link
-          variant="primaryLink"
+          aria-label="Braze"
           href="https://talctechrentals.com/"
           target="_blank"
           rel="noreferrer"
-        >
+
+          >
+
+          {' '}
           Talctech Rentals website
-        </Link>{' '}
+
+        </Link>
+        {' '}
         using NodeJS.
       </>,
       <>
@@ -114,7 +120,8 @@ export const Experiences: {
         >
           {' '}
          Blunic
-        </Link>.
+        </Link>
+        .
       </>,
       <>
         I am working as a backend developer in a team of six.
@@ -147,6 +154,27 @@ export const Experiences: {
       </>
     ],
   },
+  CodinMage: {
+    name: 'CodinMage',
+    longName: 'CodinMage',
+    subDetail: 'Software Solutions',
+    url: 'https://codinmage.org/',
+    position: 'Founder',
+    duration: 'September 2022 - Present',
+    logo: {
+      light: '/worked_at_logos/CodinMage/logo_light.png',
+      dark: '/worked_at_logos/CodinMage/logo_dark.png',
+    },
+    roles: [
+      <>
+          CodinMage is a digital agency company that excels in designing websites and developing applications for clients all over the world using the latest technologies. Our team of highly experienced experts brings a wealth of knowledge to the table. In addition to our exceptional web development and graphic design services, we also offer app development and SEO services to cater to our client's diverse needs. We strive to deliver outstanding results that exceed expectations in every project we undertake.
+      </>,
+      <>
+        CodinMage is a software solutions company, We build software solutions for businesses and individuals.
+      </>,
+
+    ],
+  },
 }
 
-export const ExperiencesList = [Experiences.MoonInnovations, Experiences.GreenMouse, Experiences.Foodelo]
+export const ExperiencesList = [Experiences.MoonInnovations, Experiences.GreenMouse, Experiences.Foodelo, Experiences.CodinMage]

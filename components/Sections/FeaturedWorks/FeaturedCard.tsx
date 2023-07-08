@@ -102,6 +102,7 @@ const ProjectDescription = ({
       variant="accentAlternative"
       width="90%"
       alignSelf={isLeft ? 'flex-end' : 'flex-start'}
+      textAlign="justify"
       wordBreak="break-word"
       paddingY={{ base: 3, md: 0 }}
     >
@@ -115,10 +116,10 @@ const ProjectDescription = ({
       as="a"
       href={ctaUrl}
       rel="noreferrer"
-      target="_blank"
+      target={ctaUrl !=  "#" ? "_blank" : ""}
       marginY={{ base: 3, md: 0 }}
     >
-      View Project
+      {ctaUrl != "#" ? 'View Project' : 'Coming soon...'}
     </Button>
   </Container>
 )

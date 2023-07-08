@@ -21,7 +21,7 @@ import {
   SiDocker,
   SiAmazons3,
   SiVuedotjs,
-  SiNuxtdotjs,
+  // SiNuxtdotjs,
   SiNestjs,
 } from 'react-icons/si';
 import{TbApi} from 'react-icons/tb'
@@ -35,7 +35,7 @@ type ISkillSetModal = {
 const Detail = ({ onOpen }: ISkillSetModal) => {
   const emphasis = useColorModeValue('teal.500', 'cyan.200')
   const currentYear = new Date().getFullYear()
-  const professionalYears = currentYear - 2016
+  const professionalYears = currentYear - 2021
 
   return (
     <Stack width={{ base: '100%', lg: '70%' }} spacing={{ base: 6, xl: 8 }}>
@@ -49,8 +49,8 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
       >
         What i do.
       </Heading>
-      <Text variant="description">
-        I`ve been working as a professional software developer for less than a year. I
+      <Text textAlign='justify' variant="description">
+        I`ve been working as a professional software developer for more than {professionalYears} years. I
         specialize in creating
         <Tooltip
           label="Ha!. border: 1px solid red "
@@ -68,7 +68,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           hasArrow
         >
           <Text as="span" variant="emphasis">
-            <b> develop frontend designs using Vuejs (Vue 3).</b>
+            <b> develop frontend designs using Vuejs (Vue 3) and ReactJs.</b>
           </Text>
         </Tooltip>{' '}
         <br /> <br />
@@ -96,7 +96,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
             NodeJS
           </ListItem>
-         
+
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiNestjs} color={emphasis} fontSize="2em" />
             NestJs
@@ -125,8 +125,8 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             VueJS
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNuxtdotjs} color={emphasis} fontSize="2em" />
-            NuxtJS
+            <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
+            ReactJs
           </ListItem>
         </List>
         <Box>
