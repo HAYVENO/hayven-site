@@ -40,7 +40,7 @@ const Avatar = () => {
   return (
     <AnimatePresence>
       <MotionBox
-        id="khAvatar"
+        id="rtAvatar"
         boxSize={{ base: 64, lg: 'sm' }}
         padding={{ base: 8 }}
         marginBottom={{ base: 10, md: 0, lg: 0 }}
@@ -51,7 +51,7 @@ const Avatar = () => {
       >
         <ChkImage
           src={imgAvatar}
-          alt="KH Yusuf Avatar"
+          alt="Abdulraqeeb Taiwo Avatar"
           htmlWidth="250"
           htmlHeight="250"
           margin="auto"

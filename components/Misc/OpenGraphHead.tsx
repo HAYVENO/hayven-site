@@ -2,6 +2,10 @@ import Head from 'next/head'
 const OpenGraphHead = () => (
   <Head>
     <title>Abdulraqeeb Taiwo | Fullstack Developer</title>
+    <meta
+      name="format-detection"
+      content="telephone=no, date=no, email=no, address=no"
+    />
     <meta name="description" content="My personal solace place on web-earth." />
     <meta property="og:title" content="Abdulraqeeb Taiwo | Fullstack Developer"/>
     <meta property="og:site_name" content="Abdulraqeeb Taiwo" />

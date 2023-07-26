@@ -18,7 +18,7 @@ const FeaturedWorksSection = () => {
   const isMobile = useBreakpointValue(mobileBreakpointsMap)
   return (
     <Stack
-      width={{ base: '99%', lg: '60%', xl: '75%' }}
+      width={{ base: '99%', md: "50%", lg: '60%', xl: '75%' }}
       height="100%"
       spacing={{ base: 6, xl: 8 }}
     >
@@ -40,7 +40,7 @@ const FeaturedWorksSection = () => {
         gap={{ base: 5, md: 6 }}
         variants={galleryStagger}
       >
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower} >
           <FeaturedCard
             idx={1}
             title="Talctech Rentals"
