@@ -1,8 +1,8 @@
 {
   "parser": "@typescript-eslint/parser",
   "extends": [
-    "next", 
-    "next/core-web-vitals", 
+    "next",
+    "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "prettier"
@@ -22,6 +22,7 @@
     "no-multi-str": "warn",
     "no-useless-escape": "warn",
     "no-trailing-spaces": "warn",
+    "no-unused-vars": "warn",
     "react/no-multi-comp": "warn",
     "import/first": "warn",
     "import/order": "warn",
