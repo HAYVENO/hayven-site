@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { memo, useCallback } from 'react'
 import {
   Container,
@@ -38,7 +39,7 @@ const Navigation = () => {
   const btnClassName = `${styles.blogBtn} ${!IsDark && styles.dark}`
   const Icon = IsDark ? SunIcon : MoonIcon
   const onMenuItemClick = useCallback(
-    (e) => {
+    (e: any) => {
       e.stopPropagation()
       if (isMobile) {
         toggleOpen()
@@ -67,7 +68,6 @@ const Navigation = () => {
         />
         <MobileMenu isDarkMode={IsDark} toggle={toggleOpen} isOpen={isOpen} />
       </Box>
-
       <MotionContainer
         width="100%"
         backgroundColor={bg}
@@ -197,7 +197,6 @@ const Navigation = () => {
             >
               Contact
             </Button>
-
           </Box>
           <Box
             width={{ base: '100%', lg: 'auto' }}
@@ -220,7 +219,6 @@ const Navigation = () => {
             >
               Blog
             </Button>
-
           </Box>
           {!isMobile && (
             <Box>

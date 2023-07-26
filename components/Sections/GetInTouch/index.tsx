@@ -2,7 +2,7 @@ import { memo } from 'react'
 import { Heading, Text, Stack, Link, Icon, Box } from '@chakra-ui/react'
 import { motion, Variants } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { RiHeartPulseFill, RiCopyleftLine, RiGithubFill } from 'react-icons/ri'
+// import { RiHeartPulseFill, RiCopyleftLine, RiGithubFill } from 'react-icons/ri'
 const devdaoVariant: Variants = {
   shake: {
     rotate: [0, 15, 0, -15, 0],
