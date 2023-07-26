@@ -38,7 +38,7 @@ const Navigation = () => {
   const btnClassName = `${styles.blogBtn} ${!IsDark && styles.dark}`
   const Icon = IsDark ? SunIcon : MoonIcon
   const onMenuItemClick = useCallback(
-    (e) => {
+    (e:any) => {
       e.stopPropagation()
       if (isMobile) {
         toggleOpen()
@@ -220,7 +220,7 @@ const Navigation = () => {
             >
               Blog
             </Button>
-            
+
           </Box>
           {!isMobile && (
             <Box>

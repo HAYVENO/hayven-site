@@ -1,6 +1,6 @@
 import { IconType } from 'react-icons'
 import {
-  FaInstagram,
+  // FaInstagram,
   FaLinkedin,
   FaStackOverflow,
   FaTwitter,

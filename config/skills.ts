@@ -7,7 +7,7 @@ import {
   SiStyledcomponents,
   SiCpanel,
   SiMongodb,
-  SiMaterialdesign,
+  // SiMaterialdesign,
   SiGit,
   SiGnubash,
   SiVisualstudiocode,
