@@ -11,8 +11,8 @@ import {
   Container,
   Stack,
   useColorModeValue,
-} from '@chakra-ui/react'
-import { motion } from 'framer-motion'
+} from '@chakra-ui/react';
+import { motion } from 'framer-motion';
 import styles from './styles.module.css'
 import { easing, DURATIONS } from 'config/animations'
 
@@ -37,7 +37,7 @@ const variants = {
     scale: 1.1,
     opacity: 1,
     transition: {
-      duration: DURATIONS.Fast,
+      duration: DURATIONS.VeryFast,
       ease: 'backOut',
     },
   },
@@ -45,7 +45,7 @@ const variants = {
     scale: 0.85,
     opacity: 1,
     transition: {
-      duration: DURATIONS.Fast,
+      duration: DURATIONS.VeryFast,
       ease: easing,
     },
   },
